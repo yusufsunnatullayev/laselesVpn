@@ -1,0 +1,43 @@
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 40px;
+}
+
+.hero-left {
+  width: 555px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.hero-left h1 {
+  font-weight: 500;
+  font-size: 50px;
+  color: rgb(11, 19, 42);
+}
+
+.hero-left {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(79, 86, 101);
+}
+
+.hero-left button {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 10px;
+  background: rgb(245, 56, 56);
+  color: #fff;
+  border: none;
+  padding: 17.5px 77.5px;
+  transition: all 0.3s ease;
+}
+
+.hero-left button:hover {
+  opacity: 0.8;
+}
