@@ -1,0 +1,81 @@
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.plan h1 {
+  font-weight: 500;
+  font-size: 35px;
+  color: rgb(11, 19, 42);
+}
+
+.plan p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(79, 86, 101);
+}
+
+.plans {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.plan-card {
+  position: relative;
+  padding: 76px;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 760px;
+}
+
+.plan-check {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  align-self: start;
+}
+
+.plan-bottom {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  bottom: 50px;
+}
+
+.plan-bottom h1 {
+  color: rgb(11, 19, 42);
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.plan-bottom button {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(245, 56, 56);
+  border: 2px solid rgb(245, 56, 56);
+  border-radius: 50px;
+  padding: 13px 62px;
+  background: transparent;
+}
+
+.border-red {
+  border: 1px solid rgb(245, 56, 56) !important;
+}
+
+.bg-red {
+  background: rgb(245, 56, 56) !important;
+  color: white !important;
+}
