@@ -1,0 +1,154 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 0 250px;
+}
+
+.testimonials h1 {
+  font-weight: 500;
+  font-size: 35px;
+  color: rgb(11, 19, 42);
+  width: 447px;
+  text-align: center;
+}
+
+.testimonials .p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(79, 86, 101);
+  width: 555px;
+  text-align: center;
+}
+
+.opinions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+  width: 80%;
+  align-self: end; /* Changed from end to center for better alignment */
+}
+
+.opinion-card {
+  border: 2px solid rgb(245, 56, 56);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  width: 400px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.opinion-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-between;
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+
+.customer-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.customer-detail span {
+  color: rgb(11, 19, 42);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.customer-detail p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(79, 86, 101);
+}
+
+.customer-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.opinion-bottom p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(11, 19, 42);
+  width: 340px;
+  text-align: start;
+}
+
+.opinion-navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: start;
+  margin-top: 40px;
+}
+
+.navigation-shapes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navigation-shapes .oval {
+  height: 15px;
+  width: 35px;
+  background: rgb(245, 56, 56);
+  border-radius: 20px;
+}
+
+.navigation-shapes .round {
+  width: 15px;
+  height: 15px;
+  background: rgb(221, 224, 228);
+  border-radius: 100%;
+}
+
+.navigation-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.arrow-left {
+  background: transparent;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid rgb(245, 56, 56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-right {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: rgb(245, 56, 56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}

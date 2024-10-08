@@ -1,0 +1,26 @@
+.global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.global h1 {
+  font-weight: 500;
+  font-size: 35px;
+  color: rgb(11, 19, 42);
+  width: 383px;
+  text-align: center;
+}
+
+.global p {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(79, 86, 101);
+  width: 555px;
+  text-align: center;
+}
+
+.global .img {
+  margin-top: 130px;
+}
