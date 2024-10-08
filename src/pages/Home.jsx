@@ -6,6 +6,7 @@ import Feature from "../components/feature/Feature";
 import Plan from "../components/plan/Plan";
 import Global from "../components/global/Global";
 import Testimonials from "../components/testimonials/Testimonials";
+import Subscription from "../components/subscription/Subscription";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Plan />
       <Global />
       <Testimonials />
+      <Subscription />
     </div>
   );
 };
